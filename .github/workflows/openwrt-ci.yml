@@ -190,7 +190,7 @@ jobs:
           # 
           sed -i 's/^[ \t]*//g' ./.config
           make defconfig
-        run: make defconfig
+        # run: make defconfig
 
       - name: Make download
         run: |
