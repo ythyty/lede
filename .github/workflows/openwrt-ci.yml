@@ -7,20 +7,22 @@
 #
 name: OpenWrt-CI
 
-# on:
-#  schedule:
-#    - cron: 0 20 * * *
-#  release:
-#    types: [published]
-
 on:
-  push:
-    branches: 
-      - master
-  # schedule:
-  #   - cron: 0 20 * * *
+# schedule:
+#     - cron: 0 20 * * *
   release:
     types: [published]
+
+# ========================================
+#on:
+#  push:
+#    branches: 
+#      - master
+#  # schedule:
+#  #   - cron: 0 20 * * *
+#  release:
+#    types: [published]
+# ==========================================
     
 
 # 开始任务
